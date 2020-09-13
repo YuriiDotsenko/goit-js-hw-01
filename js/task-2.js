@@ -1,6 +1,11 @@
 const total = 100;
 const ordered = 50;
+let result;
 
-for (let i = total) {
-  console.log();
+if (total >= ordered) {
+  result = "Заказ оформлен, с вами свяжется менеджер";
+} else {
+  result = "На складе недостаточно товаров!";
 }
+
+console.log(result);
